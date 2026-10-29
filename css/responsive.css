@@ -1,0 +1,42 @@
+@media (max-width: 800px) {
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 72px;
+    left: 16px;
+    right: 16px;
+    display: none;
+    background: rgba(10, 19, 31, 0.98);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .hero-grid,
+  .split,
+  .grid-2,
+  .grid-3,
+  .grid-4,
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero,
+  .page-hero {
+    padding-top: 52px;
+  }
+
+  .page-hero h1,
+  .hero-copy h1 {
+    font-size: 2.5rem;
+  }
+}
