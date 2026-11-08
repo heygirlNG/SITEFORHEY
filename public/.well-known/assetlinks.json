@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "studio.ai.heychat_5636.twa",
+      "sha256_cert_fingerprints": [
+        "52:A7:A7:15:7E:5F:5C:74:1B:C7:CD:63:7C:96:10:FE:13:6F:C2:F6:BC:34:AF:8A:04:84:61:B3:87:08:EE:35"
+      ]
+    }
+  }
+]
